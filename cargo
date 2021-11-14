@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+PY="python3.9"
+export PYO3_PYTHON="${PY}"
+
+cd "src/rust/allow_threads" || exit "${PIPESTATUS[0]}"
+exec cargo "$@"
+

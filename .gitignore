@@ -1,0 +1,4 @@
+target/
+src/python/allow_threads/*.so
+__pycache__/
+
